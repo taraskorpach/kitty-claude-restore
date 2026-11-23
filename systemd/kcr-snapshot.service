@@ -1,0 +1,6 @@
+[Unit]
+Description=Record the open Claude Code sessions for kcr
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/kcr snapshot
